@@ -1,0 +1,30 @@
+.titulo {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.tabela {
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.tabela__cabecalho {
+  color: var(--primary);
+}
+.tabela__cabecalho__conteudo {
+  padding: 10px;
+  border-bottom: 2px solid green;
+}
+.tabela__linha {
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.tabela__linha:last-child .tabela__conteudo {
+  border-bottom: none;
+}
+.tabela__conteudo {
+  padding: 10px;
+  border-bottom: 1px solid var(--cinza-claro);
+}/*# sourceMappingURL=extrato.component.css.map */
